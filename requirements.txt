@@ -1,0 +1,8 @@
+# Core audio rendering. Pedalboard ships Intel-macOS (x86_64) wheels and can
+# host Serum as a VST3/AU instrument. DawDreamer is NOT used: its current macOS
+# wheels are Apple Silicon only.
+pedalboard>=0.9.12
+mido>=1.3.0
+numpy>=1.24
+soundfile>=0.12
+psutil>=5.9
